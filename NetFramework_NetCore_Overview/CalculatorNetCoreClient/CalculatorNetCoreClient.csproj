@@ -6,7 +6,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\WeiteresProjekt\CalculatorV2\CalculatorV2.csproj" />
     <ProjectReference Include="..\SharedLibrary\SharedLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="HelloPlugin">
+      <HintPath>..\Lib\HelloPlugin.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

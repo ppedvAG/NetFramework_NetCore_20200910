@@ -3,3 +3,7 @@ https://dotnet.microsoft.com/download/dotnet-framework/net48
 
 .NET Core 3.1.8 (aktuelle .NET Core Version)
 https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.402-windows-x64-installer
+
+
+Solid-Konzept:
+https://docs.microsoft.com/de-de/archive/msdn-magazine/2014/may/csharp-best-practices-dangers-of-violating-solid-principles-in-csharp

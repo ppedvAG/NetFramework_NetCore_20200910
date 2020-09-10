@@ -1,0 +1,1 @@
+Vorbereitung für .NET Core bzw. ASPNetCore

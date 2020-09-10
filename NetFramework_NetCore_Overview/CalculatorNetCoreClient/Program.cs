@@ -1,6 +1,11 @@
 ﻿using SharedLibrary;
 using System;
 
+using Serilog;
+
+
+
+
 namespace CalculatorNetCoreClient
 {
     class Program

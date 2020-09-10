@@ -6,13 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Serilog;
+
 namespace CalculatorClient
 {
     class Program
     {
         static void Main(string[] args)
-        {
-            
+        {            
             Calculator calculator = new Calculator();
 
             decimal zahl1 = 1345.234m;

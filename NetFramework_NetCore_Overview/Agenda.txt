@@ -1,1 +1,43 @@
 - .NET Standard als Shared Library + Referenzierung in .NET Core + .NET Framework
+
+
+[Donnerstag]
+
+Visual Studio Einstieg:
+	- PlugIns  (gemacht)
+	- Debugging (gemacht)
+
+	- Visual Studio Installer (gemacht)
+
+Visual Studio Code
+- Kleinen Rundumblick 
+
+
+- Dependency Injections (Design Pattern)
+
+- Entity Framework auf .NET Framework 4.8 und .NET Core 3.1
+	-> .NET Framework 4.8
+		- EF 6.0 (Migrationsaufwand)
+
+- ADO.NET - Datenbankzugriffe
+
+
+
+
+
+[Freitag]
+
+Service-Layer:
+-	WebAPI + Client + JSON Visual Studio + Swagger (Dokumentation) 
+	- WPF Client -> Amazon Service verwendet
+-	gRPC + Client
+
+
+- ASP.NET Core
+	- MVC 
+    - Razor Pages
+
+- .NET Core Drittlibraries
+	- Serilog
+
+

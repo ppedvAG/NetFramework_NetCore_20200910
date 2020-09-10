@@ -1,0 +1,11 @@
+
+
+
+Debuggen: 
+
+F5 -> Programm läuft bis zum Ende oder bis zum nächsten Breakpoint
+F10 -> Gehe zur nächsten Zeile Code innerhalb der selben Methoden
+F11 -> Gehe zur nächsten Zeile, bzw springe in die Methode hinein, die gerade aufgerufen wird (Ebene Tiefer)
+
+Meünleiste -> Debug->Windows->CallStack: -> Auflistung der Methodenaufrufe bis zu einer Codezeile (meist eine Exception, die dort ausgelöst wurde)
+Menüleiste -> Debug->Watch->Watch1...Watch4 -> Variablenansicht (muss den Namen der Variable oder Methode angeben) -> mit Ergebnisanzeige

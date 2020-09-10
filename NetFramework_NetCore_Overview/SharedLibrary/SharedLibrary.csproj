@@ -8,4 +8,8 @@
     <DocumentationFile>C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SharedLibrary\SharedLibrary.xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.10.0" />
+  </ItemGroup>
+
 </Project>

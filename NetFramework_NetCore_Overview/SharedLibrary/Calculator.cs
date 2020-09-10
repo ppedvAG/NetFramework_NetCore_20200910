@@ -26,7 +26,7 @@ namespace SharedLibrary
         /// <returns></returns>
         public decimal Subtraktion(decimal zahl1, decimal zahl2)
         {
-            return (zahl1 + zahl2);
+            return (zahl1 - zahl2);
         }
     }
 

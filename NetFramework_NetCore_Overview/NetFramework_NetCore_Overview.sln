@@ -5,11 +5,12 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedLibraryWithNETStandard", "SharedLibraryWithNETStandard", "{F630E620-5597-49B3-8BA8-5566EE9D0250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{E2483EA5-239F-4198-A6C2-0BCBCC8CC023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{E2483EA5-239F-4198-A6C2-0BCBCC8CC023}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkCollection", "LinkCollection", "{BB80FB06-A4BF-4B65-AECE-433904A4447A}"
 	ProjectSection(SolutionItems) = preProject
 		Agenda.txt = Agenda.txt
+		Debugging.txt = Debugging.txt
 		LinkCollection.txt = LinkCollection.txt
 	EndProjectSection
 EndProject
@@ -19,7 +20,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore31", "NetCore31", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorClient", "CalculatorClient\CalculatorClient.csproj", "{3B5FA548-BC36-4C15-A09E-74AAFC03442B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorNetCoreClient", "CalculatorNetCoreClient\CalculatorNetCoreClient.csproj", "{7F0C0715-174C-45CF-8493-04CE85700F49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorNetCoreClient", "CalculatorNetCoreClient\CalculatorNetCoreClient.csproj", "{7F0C0715-174C-45CF-8493-04CE85700F49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorV2", "..\..\WeiteresProjekt\CalculatorV2\CalculatorV2.csproj", "{421E987F-6422-4D66-8566-33A613B3710D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjections", "DependencyInjections", "{FF8D5FB8-76B6-4A30-A6E2-A0FCE401AFDD}"
+	ProjectSection(SolutionItems) = preProject
+		DependencyInjections.txt = DependencyInjections.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionsSample", "DependencyInjectionsSample\DependencyInjectionsSample.csproj", "{5798F531-3A20-4C4E-B46F-26A9C29E81C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +49,14 @@ Global
 		{7F0C0715-174C-45CF-8493-04CE85700F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F0C0715-174C-45CF-8493-04CE85700F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F0C0715-174C-45CF-8493-04CE85700F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421E987F-6422-4D66-8566-33A613B3710D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421E987F-6422-4D66-8566-33A613B3710D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421E987F-6422-4D66-8566-33A613B3710D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421E987F-6422-4D66-8566-33A613B3710D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5798F531-3A20-4C4E-B46F-26A9C29E81C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5798F531-3A20-4C4E-B46F-26A9C29E81C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5798F531-3A20-4C4E-B46F-26A9C29E81C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5798F531-3A20-4C4E-B46F-26A9C29E81C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +67,8 @@ Global
 		{57DAEFD5-F97E-4269-9D02-619915DD1F1A} = {F630E620-5597-49B3-8BA8-5566EE9D0250}
 		{3B5FA548-BC36-4C15-A09E-74AAFC03442B} = {909B45D3-9A6D-45AF-85AB-EBED41ED7E85}
 		{7F0C0715-174C-45CF-8493-04CE85700F49} = {57DAEFD5-F97E-4269-9D02-619915DD1F1A}
+		{421E987F-6422-4D66-8566-33A613B3710D} = {57DAEFD5-F97E-4269-9D02-619915DD1F1A}
+		{5798F531-3A20-4C4E-B46F-26A9C29E81C6} = {FF8D5FB8-76B6-4A30-A6E2-A0FCE401AFDD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CA801EB-3F2B-4C9F-9AA4-5FFBDB4E5E04}
