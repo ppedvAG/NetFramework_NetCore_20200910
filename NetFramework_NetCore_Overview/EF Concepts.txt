@@ -1,0 +1,44 @@
+
+
+Database First:
+
+Aktuelles Schema der Datenbank, wird auf C# Code Ebene abgebildet
+
++ Schnelle Verfügbarkeit eines Datenzugriffes
+
+- Datenbank gebunden
+- Entwicklungen von Datenbank und App verlaufen parallel 
+- EDMX Datei -> Mapping Dateien in XML Form sind nicht zeitgemäß
+- Obselete (wird in .NET Core nicht mehr exestieren)
+
+
+Model First:
++ Designergestützt + Übersichtlich
+
+- EDMX - Datei
+- Obselete (wird in .NET Core nicht mehr exestieren)
+
+
+Code First:
+
+- C# - Klassen geben das Schema einer allgemeinen Datenbank (Relationale Datenbank) vor. Der Provider gibt an, zu welcher Datenbank ein Rollout des in C# definierten Schemas passiert.
+	+	Kann Rollouts auf verschiede DBs
+	+	Keine parellele Entwicklung zwischen Datenbank und App (C# gesteuert)
+	+	Via C# Hilfs-Libs->Dummy Daten in DB erzeugen. 
+
+
+	Info: Definition wie eine Tabelle/Spalte auszusehen hat, wird mithilfe DataAnnotations oder FluentAPI definiert (verschiedene Konzepte mit gleich Wirklung)
+	+	Versionierung ist smart.
+
+
+
+Code First (Reverse):
+	+	
+
+	+	Kann Rollouts auf verschiede DBs
+	+	Keine parellele Entwicklung zwischen Datenbank und App (C# gesteuert)
+	+	Via C# Hilfs-Libs->Dummy Daten in DB erzeugen. 
+
+
+	Info: Definition wie eine Tabelle/Spalte auszusehen hat, wird mithilfe DataAnnotations oder FluentAPI definiert (verschiedene Konzepte mit gleich Wirklung)
+	+	Versionierung ist smart.

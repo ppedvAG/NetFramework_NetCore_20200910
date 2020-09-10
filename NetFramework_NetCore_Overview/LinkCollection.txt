@@ -7,3 +7,11 @@ https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.402-windows-
 
 Solid-Konzept:
 https://docs.microsoft.com/de-de/archive/msdn-magazine/2014/may/csharp-best-practices-dangers-of-violating-solid-principles-in-csharp
+
+
+Linq + Lambda Samples
+
+https://linqsamples.com/
+
+(Offline Samples)
+https://docs.microsoft.com/en-us/samples/dotnet/try-samples/101-linq-samples/

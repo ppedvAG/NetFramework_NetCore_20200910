@@ -15,6 +15,7 @@ Visual Studio Code
 
 - Dependency Injections (Design Pattern)
 
+- Linq und Lambda 
 - Entity Framework auf .NET Framework 4.8 und .NET Core 3.1
 	-> .NET Framework 4.8
 		- EF 6.0 (Migrationsaufwand)
