@@ -1,0 +1,5 @@
+.NET Framework (wahrscheinlich letzte Major-Version)
+https://dotnet.microsoft.com/download/dotnet-framework/net48
+
+.NET Core 3.1.8 (aktuelle .NET Core Version)
+https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.402-windows-x64-installer
