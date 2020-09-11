@@ -1,0 +1,12 @@
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SampleApp.DataAccess\bin\Debug\SampleApp.DataAccess.dll.config
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SampleApp.DataAccess\bin\Debug\SampleApp.DataAccess.dll
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SampleApp.DataAccess\bin\Debug\SampleApp.DataAccess.pdb
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SampleApp.DataAccess\bin\Debug\EntityFramework.dll
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SampleApp.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SampleApp.DataAccess\bin\Debug\EntityFramework.xml
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SampleApp.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SampleApp.DataAccess\obj\Debug\SampleApp.DataAccess.csprojAssemblyReference.cache
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SampleApp.DataAccess\obj\Debug\SampleApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SampleApp.DataAccess\obj\Debug\SampleApp.DataAccess.csproj.CopyComplete
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SampleApp.DataAccess\obj\Debug\SampleApp.DataAccess.dll
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SampleApp.DataAccess\obj\Debug\SampleApp.DataAccess.pdb

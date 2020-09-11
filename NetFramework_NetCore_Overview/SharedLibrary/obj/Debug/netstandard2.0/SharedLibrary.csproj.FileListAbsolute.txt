@@ -1,0 +1,10 @@
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SharedLibrary\bin\Debug\netstandard2.0\SharedLibrary.deps.json
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SharedLibrary\bin\Debug\netstandard2.0\SharedLibrary.dll
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SharedLibrary\bin\Debug\netstandard2.0\SharedLibrary.pdb
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SharedLibrary\bin\Debug\netstandard2.0\SharedLibrary.xml
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SharedLibrary\obj\Debug\netstandard2.0\SharedLibrary.csprojAssemblyReference.cache
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SharedLibrary\obj\Debug\netstandard2.0\SharedLibrary.AssemblyInfoInputs.cache
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SharedLibrary\obj\Debug\netstandard2.0\SharedLibrary.AssemblyInfo.cs
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SharedLibrary\obj\Debug\netstandard2.0\SharedLibrary.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SharedLibrary\obj\Debug\netstandard2.0\SharedLibrary.dll
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\SharedLibrary\obj\Debug\netstandard2.0\SharedLibrary.pdb

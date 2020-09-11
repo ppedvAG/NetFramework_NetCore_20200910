@@ -38,11 +38,6 @@ namespace SampleApp.UI
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             dgvCountries.AutoGenerateColumns = true;
@@ -83,6 +78,11 @@ namespace SampleApp.UI
             
             
             LoadContries(context.Continents.Find(continent.Id));
+        }
+
+        private void panel3_MouseClick(object sender, MouseEventArgs e)
+        {
+            
         }
     }
 }

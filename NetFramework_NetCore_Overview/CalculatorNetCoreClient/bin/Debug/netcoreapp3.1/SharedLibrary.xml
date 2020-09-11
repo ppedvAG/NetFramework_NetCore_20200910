@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SharedLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:SharedLibrary.Calculator">
+            <summary>
+            Calculator für Subtraktion und Addition
+            </summary>
+        </member>
+        <member name="M:SharedLibrary.Calculator.Addition(System.Decimal,System.Decimal)">
+            <summary>
+            Hier werden zwei Zahlen addiert
+            </summary>
+            <param name="zahl1">summand1</param>
+            <param name="zahl2">summand2</param>
+            <returns>Summe</returns>
+        </member>
+        <member name="M:SharedLibrary.Calculator.Subtraktion(System.Decimal,System.Decimal)">
+            <summary>
+            Hier wird subtrahiert
+            </summary>
+            <param name="zahl1"></param>
+            <param name="zahl2"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

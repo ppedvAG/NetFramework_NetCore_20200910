@@ -30,22 +30,22 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.dgvCountries = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.countryHinzufügenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.bsContinents = new System.Windows.Forms.BindingSource(this.components);
             this.bsCountries = new System.Windows.Forms.BindingSource(this.components);
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCountries)).BeginInit();
-            this.groupBox1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bsContinents)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bsCountries)).BeginInit();
             this.SuspendLayout();
@@ -59,16 +59,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1948, 1105);
             this.panel2.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.groupBox1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1948, 100);
-            this.panel3.TabIndex = 0;
             // 
             // panel4
             // 
@@ -91,6 +81,42 @@
             this.dgvCountries.Size = new System.Drawing.Size(1948, 1005);
             this.dgvCountries.TabIndex = 0;
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.countryHinzufügenToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(305, 42);
+            // 
+            // countryHinzufügenToolStripMenuItem
+            // 
+            this.countryHinzufügenToolStripMenuItem.Name = "countryHinzufügenToolStripMenuItem";
+            this.countryHinzufügenToolStripMenuItem.Size = new System.Drawing.Size(304, 38);
+            this.countryHinzufügenToolStripMenuItem.Text = "Country hinzufügen";
+            this.countryHinzufügenToolStripMenuItem.Click += new System.EventHandler(this.countryHinzufügenToolStripMenuItem_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.groupBox1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1948, 100);
+            this.panel3.TabIndex = 0;
+            this.panel3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseClick);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(475, 26);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 51);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.comboBox1);
@@ -110,31 +136,6 @@
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(475, 26);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 51);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.countryHinzufügenToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(305, 42);
-            // 
-            // countryHinzufügenToolStripMenuItem
-            // 
-            this.countryHinzufügenToolStripMenuItem.Name = "countryHinzufügenToolStripMenuItem";
-            this.countryHinzufügenToolStripMenuItem.Size = new System.Drawing.Size(304, 38);
-            this.countryHinzufügenToolStripMenuItem.Text = "Country hinzufügen";
-            this.countryHinzufügenToolStripMenuItem.Click += new System.EventHandler(this.countryHinzufügenToolStripMenuItem_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -145,11 +146,11 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCountries)).EndInit();
-            this.groupBox1.ResumeLayout(false);
             this.contextMenuStrip1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bsContinents)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bsCountries)).EndInit();
             this.ResumeLayout(false);

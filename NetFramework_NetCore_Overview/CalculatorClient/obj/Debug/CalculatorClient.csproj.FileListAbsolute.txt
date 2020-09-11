@@ -1,0 +1,13 @@
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\bin\Debug\CalculatorClient.exe.config
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\bin\Debug\CalculatorClient.exe
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\bin\Debug\CalculatorClient.pdb
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\bin\Debug\Serilog.dll
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\bin\Debug\SharedLibrary.dll
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\bin\Debug\SharedLibrary.pdb
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\bin\Debug\SharedLibrary.xml
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\bin\Debug\Serilog.xml
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\obj\Debug\CalculatorClient.csprojAssemblyReference.cache
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\obj\Debug\CalculatorClient.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\obj\Debug\CalculatorClient.csproj.CopyComplete
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\obj\Debug\CalculatorClient.exe
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\obj\Debug\CalculatorClient.pdb
