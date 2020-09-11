@@ -27,8 +27,6 @@ namespace GeoWebMVC
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<GeoDBContext>(options =>
-                options.UseSqlServer("Data Source=SURFACE-KW4;Initial Catalog=GeoDB;Integrated Security=True;"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -170,3 +170,8 @@ C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\Ge
 C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoWebMVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoWebMVC\obj\Debug\netcoreapp3.1\GeoWebMVC.csproj.CoreCompileInputs.cache
 C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoWebMVC\obj\Debug\netcoreapp3.1\GeoWebMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoWebMVC\obj\Debug\netcoreapp3.1\Razor\Views\Continent\Create.cshtml.g.cs
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoWebMVC\obj\Debug\netcoreapp3.1\Razor\Views\Continent\Delete.cshtml.g.cs
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoWebMVC\obj\Debug\netcoreapp3.1\Razor\Views\Continent\Details.cshtml.g.cs
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoWebMVC\obj\Debug\netcoreapp3.1\Razor\Views\Continent\Edit.cshtml.g.cs
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoWebMVC\obj\Debug\netcoreapp3.1\Razor\Views\Continent\Index.cshtml.g.cs

@@ -7,22 +7,43 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GeoDB.SharedLibrary.Models;
 using GeoDBWebAPI.Data;
+using System.Net.Http;
+using Newtonsoft.Json;
+using System.Text;
 
 namespace GeoWebMVC.Controllers
 {
     public class ContinentController : Controller
     {
-        private readonly GeoDBContext _context;
+        
+        private string webAPIURL = "http://localhost:61038/api/Continent/";
 
-        public ContinentController(GeoDBContext context)
+        
+        public ContinentController()
         {
-            _context = context;
+            
         }
 
         // GET: Continent
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Continents.ToListAsync());
+            IList<Continents> continentList = null;
+
+            using (HttpClient httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(webAPIURL))
+                {
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    continentList = JsonConvert.DeserializeObject<List<Continents>>(apiResponse);
+                }
+            }
+
+            if (continentList == null)
+            {
+                return NotFound();
+            }
+
+            return View(continentList);
         }
 
         // GET: Continent/Details/5
@@ -33,8 +54,18 @@ namespace GeoWebMVC.Controllers
                 return NotFound();
             }
 
-            var continents = await _context.Continents
-                .FirstOrDefaultAsync(m => m.Id == id);
+            //WebAPI Call
+            Continents continents = null;
+
+            using (HttpClient httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(webAPIURL + id.ToString()))
+                {
+                    string jsonResponse = await response.Content.ReadAsStringAsync();
+                    continents = JsonConvert.DeserializeObject<Continents>(jsonResponse);
+                }
+            }
+
             if (continents == null)
             {
                 return NotFound();
@@ -44,6 +75,7 @@ namespace GeoWebMVC.Controllers
         }
 
         // GET: Continent/Create
+
         public IActionResult Create()
         {
             return View();
@@ -56,11 +88,23 @@ namespace GeoWebMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name")] Continents continents)
         {
+            if (continents != null)
+                continents.Id = Guid.NewGuid();
+
             if (ModelState.IsValid)
             {
-                continents.Id = Guid.NewGuid();
-                _context.Add(continents);
-                await _context.SaveChangesAsync();
+                
+
+                string json = JsonConvert.SerializeObject(continents);
+
+                var data = new StringContent(json, Encoding.UTF8, "application/json");
+
+                using var client = new HttpClient();
+
+                var response = await client.PostAsync("http://localhost:61038/api/Continent/", data);
+
+                string result = response.Content.ReadAsStringAsync().Result;
+
                 return RedirectToAction(nameof(Index));
             }
             return View(continents);
@@ -74,7 +118,18 @@ namespace GeoWebMVC.Controllers
                 return NotFound();
             }
 
-            var continents = await _context.Continents.FindAsync(id);
+            //WebAPI Call
+            Continents continents = null;
+
+            using (HttpClient httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(webAPIURL + id.ToString()))
+                {
+                    string jsonResponse = await response.Content.ReadAsStringAsync();
+                    continents = JsonConvert.DeserializeObject<Continents>(jsonResponse);
+                }
+            }
+
             if (continents == null)
             {
                 return NotFound();
@@ -98,19 +153,18 @@ namespace GeoWebMVC.Controllers
             {
                 try
                 {
-                    _context.Update(continents);
-                    await _context.SaveChangesAsync();
+                    //WebAPI Call
+                    var json = JsonConvert.SerializeObject(continents);
+                    var data = new StringContent(json, Encoding.UTF8, "application/json");
+
+                    using var client = new HttpClient();
+
+                    var response = await client.PutAsync("http://localhost:61038/api/Continent/" + continents.Id.ToString(), data);
+                    string result = response.Content.ReadAsStringAsync().Result;
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (Exception)
                 {
-                    if (!ContinentsExists(continents.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    
                 }
                 return RedirectToAction(nameof(Index));
             }
@@ -125,8 +179,18 @@ namespace GeoWebMVC.Controllers
                 return NotFound();
             }
 
-            var continents = await _context.Continents
-                .FirstOrDefaultAsync(m => m.Id == id);
+            //WebAPI Call
+            Continents continents = null;
+
+            using (HttpClient httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(webAPIURL + id.ToString()))
+                {
+                    string jsonResponse = await response.Content.ReadAsStringAsync();
+                    continents = JsonConvert.DeserializeObject<Continents>(jsonResponse);
+                }
+            }
+
             if (continents == null)
             {
                 return NotFound();
@@ -140,15 +204,15 @@ namespace GeoWebMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
-            var continents = await _context.Continents.FindAsync(id);
-            _context.Continents.Remove(continents);
-            await _context.SaveChangesAsync();
+            //WebAPI Call
+            using var client = new HttpClient();
+            var response = await client.DeleteAsync(webAPIURL + id.ToString());
+
+            string result = response.Content.ReadAsStringAsync().Result;
+
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ContinentsExists(Guid id)
-        {
-            return _context.Continents.Any(e => e.Id == id);
-        }
+        
     }
 }

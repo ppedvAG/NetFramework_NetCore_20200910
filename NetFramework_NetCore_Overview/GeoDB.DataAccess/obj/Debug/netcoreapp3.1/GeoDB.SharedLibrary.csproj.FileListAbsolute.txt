@@ -6,3 +6,4 @@ C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\Ge
 C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDB.DataAccess\obj\Debug\netcoreapp3.1\GeoDB.SharedLibrary.dll
 C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDB.DataAccess\obj\Debug\netcoreapp3.1\GeoDB.SharedLibrary.pdb
 C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDB.DataAccess\obj\Debug\netcoreapp3.1\GeoDB.SharedLibrary.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDB.DataAccess\obj\Debug\netcoreapp3.1\GeoDB.SharedLibrary.csprojAssemblyReference.cache
