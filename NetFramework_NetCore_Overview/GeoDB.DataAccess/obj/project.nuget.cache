@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "FRDq4n8cF8oohMh8XjtUNrc4JX08tv5Gw4vMllWNYImzWgjsks5wD6qdXUXoDtGlZG8EAGi2Q+Fp2dj5AQl0eg==",
+  "dgSpecHash": "1ej4/rcZ/tVKv1gbXGokq83HeoixbvCyWdQlY7S6zFlmoX5/N7sQg2YwSRjkMDSv2kJVUhkBnKQuNEafbCVBVQ==",
   "success": true,
   "projectFilePath": "C:\\Aktueller Kurs\\NetFramework_NetCore_20200910\\NetFramework_NetCore_Overview\\GeoDB.DataAccess\\GeoDB.SharedLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\KW4\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\KW4\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\KW4\\.nuget\\packages\\swashbuckle.aspnetcore\\5.5.0\\swashbuckle.aspnetcore.5.5.0.nupkg.sha512",
+    "C:\\Users\\KW4\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.5.0\\swashbuckle.aspnetcore.swagger.5.5.0.nupkg.sha512",
+    "C:\\Users\\KW4\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.5.0\\swashbuckle.aspnetcore.swaggergen.5.5.0.nupkg.sha512",
+    "C:\\Users\\KW4\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.0\\swashbuckle.aspnetcore.swaggerui.5.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

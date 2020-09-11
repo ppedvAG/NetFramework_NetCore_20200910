@@ -101,6 +101,12 @@ namespace GeoDBWebAPI.Controllers
         }
 
         // DELETE: api/Continent/5
+
+        /// <summary>
+        /// Lösche einen Kontinent
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<ActionResult<Continents>> DeleteContinents(Guid id)
         {

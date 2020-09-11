@@ -1,0 +1,2 @@
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\obj\Release\CalculatorClient.csprojAssemblyReference.cache
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\CalculatorClient\obj\Release\CalculatorClient.csproj.CoreCompileInputs.cache

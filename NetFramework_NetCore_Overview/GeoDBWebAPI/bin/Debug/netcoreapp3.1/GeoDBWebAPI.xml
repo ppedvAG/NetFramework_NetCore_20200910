@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GeoDBWebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:GeoDBWebAPI.Controllers.ContinentController.DeleteContinents(System.Guid)">
+            <summary>
+            Lösche einen Kontinent
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

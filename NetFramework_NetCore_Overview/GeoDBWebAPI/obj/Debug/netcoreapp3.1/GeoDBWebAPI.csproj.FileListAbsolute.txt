@@ -149,8 +149,14 @@ C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\Ge
 C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\obj\Debug\netcoreapp3.1\GeoDBWebAPI.csproj.CoreCompileInputs.cache
-C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\obj\Debug\netcoreapp3.1\GeoDBWebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\obj\Debug\netcoreapp3.1\GeoDBWebAPI.dll
 C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\obj\Debug\netcoreapp3.1\GeoDBWebAPI.pdb
 C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\obj\Debug\netcoreapp3.1\GeoDBWebAPI.genruntimeconfig.cache
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\bin\Debug\netcoreapp3.1\GeoDBWebAPI.xml
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\obj\Debug\netcoreapp3.1\GeoDBWebAPI.csproj.CoreCompileInputs.cache
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\obj\Debug\netcoreapp3.1\GeoDBWebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Aktueller Kurs\NetFramework_NetCore_20200910\NetFramework_NetCore_Overview\GeoDBWebAPI\obj\Debug\netcoreapp3.1\GeoDBWebAPI.MvcApplicationPartsAssemblyInfo.cache
